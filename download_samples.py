@@ -20,7 +20,7 @@ def main():
 	# get top 1000 posts of all times for each sub (takes a while)
 	for subreddit_name in subreddit_names:
 		subreddit = praw.subreddit(subreddit_name)
-		submissions = subreddit.top('all', limit=1)
+		submissions = subreddit.top('all', limit=1000)
 
 		print("writing %s" % (subreddit_name))
 		for submission in submissions:
