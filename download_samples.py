@@ -5,7 +5,7 @@ def main():
 	Use praw to write a csv containing titles from top 100 subreddits
 	"""
 	# open csv for writing
-	csv_file = open("./titles1.csv", 'w+')
+	csv_file = open("./titles.csv", 'w+')
 	csv_writer = csv.writer(csv_file)
 
 	# write headers
