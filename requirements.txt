@@ -1,0 +1,5 @@
+praw
+sklearn
+pickle
+pandas
+numpy
